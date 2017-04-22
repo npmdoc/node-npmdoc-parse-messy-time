@@ -21,38 +21,56 @@
 ```json
 
 {
-    "name": "parse-messy-time",
-    "version": "2.1.0",
-    "description": "parse messy human date and time strings",
-    "main": "index.js",
-    "directories": {
-        "example": "example",
-        "test": "test"
+    "author": {
+        "name": "substack"
     },
+    "bugs": {
+        "url": "https://github.com/substack/parse-messy-time/issues"
+    },
+    "dependencies": {},
+    "description": "parse messy human date and time strings",
     "devDependencies": {
         "months": "^1.0.0",
         "strftime": "^0.9.0",
         "tape": "^4.0.0"
     },
-    "scripts": {
-        "test": "TZ=US/Pacific tape test/*.js"
+    "directories": {
+        "example": "example",
+        "test": "test"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/substack/parse-messy-time.git"
+    "dist": {
+        "shasum": "7a14ce7a1c4f65b5ede243399cc056d86bd57ad5",
+        "tarball": "https://registry.npmjs.org/parse-messy-time/-/parse-messy-time-2.1.0.tgz"
     },
+    "gitHead": "61c768961af169e77404c5eadce081184d3d3548",
+    "homepage": "https://github.com/substack/parse-messy-time",
     "keywords": [
         "date",
         "time",
         "parse",
         "human"
     ],
-    "author": "substack",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/substack/parse-messy-time/issues"
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "squarejaw"
+        },
+        {
+            "name": "substack"
+        }
+    ],
+    "name": "parse-messy-time",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/parse-messy-time.git"
     },
-    "homepage": "https://github.com/substack/parse-messy-time"
+    "scripts": {
+        "test": "TZ=US/Pacific tape test/*.js"
+    },
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
